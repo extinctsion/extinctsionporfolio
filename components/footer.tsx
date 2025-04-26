@@ -3,7 +3,7 @@ import { Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="border-t py-12">
@@ -18,19 +18,19 @@ export function Footer() {
             </p>
             <div className="flex items-center space-x-4 mt-4">
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/extinctsion" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.linkedin.com/in/aditya-sharma123" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://x.com/extinctsion" target="_blank" rel="noopener noreferrer">
                   <Twitter className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
                 </Link>
@@ -77,15 +77,15 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-muted-foreground">hello@example.com</li>
-              <li className="text-muted-foreground">+1 (234) 567-890</li>
-              <li className="text-muted-foreground">San Francisco, California</li>
+              <li className="text-muted-foreground">extinctsion@protonmail.com</li>
+              {/* <li className="text-muted-foreground">+1 (234) 567-890</li> */}
+              <li className="text-muted-foreground">New Delhi, India</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-12 pt-6 text-center text-muted-foreground">
-          <p>© {currentYear} Portfolio. All rights reserved.</p>
+          <p>© {currentYear} extinctsion. All rights reserved.</p>
         </div>
       </div>
     </footer>

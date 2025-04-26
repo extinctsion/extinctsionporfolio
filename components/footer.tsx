@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="text-xl font-bold">
-              Portfolio
+              extinctsion
             </Link>
             <p className="mt-4 text-muted-foreground max-w-xs">
               A passionate full-stack developer creating intuitive and performant web applications.

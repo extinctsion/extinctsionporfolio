@@ -13,7 +13,7 @@ export default async function BlogPage() {
         <section className="py-20">
           <div className="container">
             <div className="text-center mb-12">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Blog</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Blogs</h1>
               <p className="mt-4 text-muted-foreground max-w-md mx-auto">
                 Articles and thoughts on web development, design, and technology.
               </p>

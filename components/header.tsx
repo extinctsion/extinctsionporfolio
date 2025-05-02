@@ -78,25 +78,30 @@ export function Header() {
       {/* Mobile Navigation */}
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 top-16 z-50 bg-background">
-          <nav className="container py-6 flex flex-col space-y-4">
+            <nav
+            className={cn(
+              "container py-6 flex flex-col space-y-4 p-4 backdrop-blur-md",
+              theme === "dark" ? "bg-black/80" : "bg-white/80"
+            )}
+            >
             {navItems.map((item) => (
               <Link
-                key={item.name}
-                href={item.href}
-                className={cn(
-                  "flex items-center text-lg font-medium py-2 transition-colors hover:text-primary",
-                  pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
-                    ? "text-primary"
-                    : "text-muted-foreground",
-                )}
-                onClick={() => setIsMenuOpen(false)}
+              key={item.name}
+              href={item.href}
+              className={cn(
+                "flex items-center text-lg font-medium py-2 transition-colors hover:text-primary",
+                pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
+                ? "text-primary"
+                : "text-muted-foreground",
+              )}
+              onClick={() => setIsMenuOpen(false)}
               >
-                {item.icon}
-                {item.name}
+              {item.icon}
+              {item.name}
               </Link>
             ))}
-            <Button className="mt-4 w-full">Contact Me</Button>
-          </nav>
+            {/* <Button className="mt-4 w-full">Contact Me</Button> */}
+            </nav>
         </div>
       )}
     </header>

@@ -1,6 +1,7 @@
 import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from 'next/image'
 
 export function HeroSection() {
   return (
@@ -57,10 +58,17 @@ export function HeroSection() {
 
           <div className="relative h-[400px] w-full rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-background flex items-center justify-center">
             <div className="absolute inset-2 rounded-lg bg-muted/80 backdrop-blur-sm flex items-center justify-center">
-              <div className="text-center">
-                <p className="text-lg font-medium">Profile Image</p>
-                <p className="text-sm text-muted-foreground">Add your photo here</p>
-              </div>
+              {/* <div className="text-center"> */}
+              <Image
+                src="Adi.jpg"
+                alt="Picture of the author"
+                layout="fill" // Makes the image fill the parent container
+                objectFit="cover" // Ensures the image scales properly
+                className="rounded-lg"
+              />
+                {/* <p className="text-lg font-medium">Profile Image</p>
+                <p className="text-sm text-muted-foreground">Add your photo here</p> */}
+              {/* </div> */}
             </div>
           </div>
         </div>

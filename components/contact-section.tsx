@@ -25,8 +25,8 @@ export function ContactSection() {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                <a href="mailto:hello@example.com" className="hover:text-primary">
-                  hello@example.com
+                <a href="mailto:extinctsion@protonmail.com" className="hover:text-primary">
+                  extinctsion@protonmail.com
                 </a>
               </CardDescription>
             </CardContent>
@@ -42,7 +42,7 @@ export function ContactSection() {
             <CardContent>
               <CardDescription>
                 <a href="tel:+1234567890" className="hover:text-primary">
-                  +1 (234) 567-890
+                  +91 (123) 456-7890
                 </a>
               </CardDescription>
             </CardContent>
@@ -56,12 +56,12 @@ export function ContactSection() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription>San Francisco, California</CardDescription>
+              <CardDescription>New Delhi, India</CardDescription>
             </CardContent>
           </Card>
         </div>
 
-        <Card className="mt-12">
+        {/* <Card className="mt-12">
           <CardHeader>
             <CardTitle>Send Me a Message</CardTitle>
             <CardDescription>Fill out the form below and I'll get back to you as soon as possible.</CardDescription>
@@ -99,7 +99,7 @@ export function ContactSection() {
               </Button>
             </form>
           </CardContent>
-        </Card>
+        </Card> */}
       </div>
     </section>
   )

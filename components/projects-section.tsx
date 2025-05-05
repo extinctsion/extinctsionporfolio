@@ -5,7 +5,7 @@ export function ProjectsSection() {
     {
       title: "E-commerce Platform",
       description:
-        "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
+        "A full-featured e-commerce platform with product management,AI, Portfolio manangement, cart functionality, and payment processing.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
       demoUrl: "https://example.com",

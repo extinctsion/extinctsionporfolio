@@ -3,30 +3,28 @@ import { ProjectCard } from "./project-card"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description:
-        "A full-featured e-commerce platform with product management,AI, Portfolio manangement, cart functionality, and payment processing.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      title: "QuickURL",
+      description: "A very quick URL shortener with a simple and clean UI.",
+      image: "quickk.png?height=400&width=600",
+      tags: ["Next.js", ".NET 8", "AWS EC2", "Docker"],
+      demoUrl: "https://quickkurl.netlify.app/",
+      githubUrl: "https://github.com/extinctsion/quickkURL",
     },
     {
-      title: "Task Management App",
-      description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "/placeholder.svg?height=400&width=600",
+      title: "EasyPythonPi",
+      description: "A python library for beginners.",
+      image: "/ezpy.png?height=400&width=600",
+      tags: ["Python", "Git"],
+      demoUrl: "https://pypi.org/project/easyPythonpi/",
+      githubUrl: "https://github.com/extinctsion/easyPythonpi",
+    },
+    {
+      title: "Neural Network from Scratch",
+      description: "Making a neural network from scratch without using ML based libraries in all programming language.",
+      image: "/neuralnet.png?height=400&width=600",
       tags: ["React", "Firebase", "Material UI", "Redux"],
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
-    },
-    {
-      title: "Personal Finance Dashboard",
-      description: "A dashboard for tracking personal finances, expenses, and investments with data visualization.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["Vue.js", "Node.js", "Express", "MongoDB"],
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      demoUrl: "https://github.com/extinctsion/neuralNetworkScratch",
+      githubUrl: "https://github.com/extinctsion/neuralNetworkScratch",
     },
     {
       title: "Weather Forecast App",
@@ -35,7 +33,7 @@ export function ProjectsSection() {
       tags: ["React Native", "Redux", "OpenWeatherMap API"],
       demoUrl: "https://example.com",
       githubUrl: "https://github.com",
-    },
+    }
   ]
 
   return (

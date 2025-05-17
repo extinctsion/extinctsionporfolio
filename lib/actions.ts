@@ -9,7 +9,7 @@ export async function fetchBlogPosts(): Promise<BlogPost[]> {
         "api-key": process.env.DEV_TO_API_KEY || "",
         // "api-key": "",
       },
-      next: { revalidate: 3600 }, // Revalidate every hour
+      next: { revalidate: 900 }, // Revalidate every hour
     })
 
     if (!response.ok) {

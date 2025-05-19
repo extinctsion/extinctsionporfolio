@@ -27,12 +27,12 @@ export function ProjectsSection() {
       githubUrl: "https://github.com/extinctsion/neuralNetworkScratch",
     },
     {
-      title: "Weather Forecast App",
-      description: "A weather forecast application with location-based services and interactive maps.",
-      image: "/placeholder.svg?height=400&width=600",
-      tags: ["React Native", "Redux", "OpenWeatherMap API"],
-      demoUrl: "https://example.com",
-      githubUrl: "https://github.com",
+      title: "Lychrel Number Visualizer",
+      description: "A web application that visualizes Lychrel numbers and their sequences, helping to understand these mathematical curiosities through interactive visualization.",
+      image: "/Lychrel.png?height=400&width=600",
+      tags: ["Next.js", "Netlify", "Typescript", "Tailwind CSS"],
+      demoUrl: "https://lychrelnumber.netlify.app/",
+      githubUrl: "https://github.com/extinctsion/lychrel_number_app",
     }
   ]
 

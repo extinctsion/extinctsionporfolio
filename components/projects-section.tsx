@@ -3,6 +3,14 @@ import { ProjectCard } from "./project-card"
 export function ProjectsSection() {
   const projects = [
     {
+      title: "Lychrel Number Visualizer",
+      description: "A web application that visualizes Lychrel numbers and their sequences, helping to understand these mathematical curiosities through interactive visualization.",
+      image: "/Lychrel.png?height=400&width=600",
+      tags: ["Next.js", "Netlify", "Typescript", "Tailwind CSS"],
+      demoUrl: "https://lychrelnumber.netlify.app/",
+      githubUrl: "https://github.com/extinctsion/lychrel_number_app",
+    },
+    {
       title: "QuickURL",
       description: "A very quick URL shortener with a simple and clean UI.",
       image: "quickk.png?height=400&width=600",
@@ -25,14 +33,6 @@ export function ProjectsSection() {
       tags: ["React", "Firebase", "Material UI", "Redux"],
       demoUrl: "https://github.com/extinctsion/neuralNetworkScratch",
       githubUrl: "https://github.com/extinctsion/neuralNetworkScratch",
-    },
-    {
-      title: "Lychrel Number Visualizer",
-      description: "A web application that visualizes Lychrel numbers and their sequences, helping to understand these mathematical curiosities through interactive visualization.",
-      image: "/Lychrel.png?height=400&width=600",
-      tags: ["Next.js", "Netlify", "Typescript", "Tailwind CSS"],
-      demoUrl: "https://lychrelnumber.netlify.app/",
-      githubUrl: "https://github.com/extinctsion/lychrel_number_app",
     }
   ]
 

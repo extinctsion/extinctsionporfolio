@@ -17,12 +17,12 @@ function FullscreenModal({ url, onClose }: { url: string; onClose: () => void })
         className="relative bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center max-w-lg w-full mx-4"
         onClick={e => e.stopPropagation()}
       >
-        <img
+        {/* <img
           src={url}
           alt="Artwork enlarged view"
           className="max-h-[60vh] w-auto object-contain rounded mb-4"
           style={{ background: '#f3f3f3' }}
-        />
+        /> */}
         <button
           className="absolute top-4 right-4 text-white text-xl bg-black bg-opacity-60 rounded px-3 py-1 hover:bg-opacity-80"
           onClick={onClose}

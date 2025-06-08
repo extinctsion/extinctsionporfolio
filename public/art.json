@@ -1,27 +1,42 @@
 [
   {
+    "title": "Balloon of Colours",
+    "description": "Digital artwork titled 'Balloon of Colours'",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Balloonofcolours.jpg"
+  },
+  {
+    "title": "Black Rose",
+    "description": "Digital artwork of a black rose",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Black%20rose.png"
+  },
+  {
+    "title": "Holi Modern Art",
+    "description": "Abstract modern art inspired by Holi festival",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Holi%20modern%20art.png"
+  },
+  {
     "title": "Jett",
     "description": "Digital sketch art of Jett",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Jett.jpeg"
   },
   {
-    "title": "Jett",
-    "description": "Digital sketch art of Jett",
-    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Black%20rose.png"
-  },
-  {
-    "title": "Jett",
-    "description": "Digital sketch art of Jett",
+    "title": "Net",
+    "description": "Abstract digital artwork titled 'Net'",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Net.jpg"
   },
   {
-    "title": "Jett",
-    "description": "Digital sketch art of Jett",
+    "title": "The Stars",
+    "description": "Digital art inspired by stars and the night sky",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/The%20stars.png"
+  },
+  {
+    "title": "Untitled",
+    "description": "Digital artwork (untitled)",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Untitled.png"
   },
   {
-    "title": "Jett",
-    "description": "Digital sketch art of Jett",
-    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/The%20stars.png"
+    "title": "Abstract",
+    "description": "Abstract digital sketch",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/abstract.png"
   }
 ]

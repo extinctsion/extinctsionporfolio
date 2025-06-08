@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Code, User, Briefcase, FileText, Home, Sun, Moon } from "lucide-react"
+import { Menu, X, Code, User, Briefcase, FileText, Home, Sun, Moon, Image } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { useTheme } from "@/components/theme-provider"
@@ -28,6 +28,7 @@ export function Header() {
     { name: "Projects", href: "/#projects", icon: <Briefcase className="h-4 w-4 mr-2" /> },
     { name: "Skills", href: "/#skills", icon: <Code className="h-4 w-4 mr-2" /> },
     { name: "Blog", href: "/blog", icon: <FileText className="h-4 w-4 mr-2" /> },
+    { name: "My Art", href: "/art", icon: <Image className="h-4 w-4 mr-2" /> },
   ]
 
   return (
@@ -39,22 +40,38 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          {navItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className={cn(
-                "flex items-center text-sm font-medium transition-colors hover:text-primary",
-                pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
-                  ? "text-primary"
-                  : "text-muted-foreground",
-              )}
-            >
-              {item.icon}
-              {item.name}
-            </Link>
-          ))}
-          <Button>Contact Me</Button>
+          {navItems.map((item, idx) =>
+            idx === 5 ? [
+              <Link
+                key={item.name}
+                href={item.href}
+                className={cn(
+                  "flex items-center text-sm font-medium transition-colors hover:text-primary",
+                  pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
+                    ? "text-primary"
+                    : "text-muted-foreground",
+                )}
+              >
+                {item.icon}
+                {item.name}
+              </Link>,
+              <Button key="ContactMeBtn">Contact Me</Button>
+            ] : idx !== 6 && (
+              <Link
+                key={item.name}
+                href={item.href}
+                className={cn(
+                  "flex items-center text-sm font-medium transition-colors hover:text-primary",
+                  pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
+                    ? "text-primary"
+                    : "text-muted-foreground",
+                )}
+              >
+                {item.icon}
+                {item.name}
+              </Link>
+            )
+          )}
         </nav>
 
         {/* Theme Toggle and Mobile Menu Button */}
@@ -86,18 +103,18 @@ export function Header() {
             >
             {navItems.map((item) => (
               <Link
-              key={item.name}
-              href={item.href}
-              className={cn(
-                "flex items-center text-lg font-medium py-2 transition-colors hover:text-primary",
-                pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
-                ? "text-primary"
-                : "text-muted-foreground",
-              )}
-              onClick={() => setIsMenuOpen(false)}
+                key={item.name}
+                href={item.href}
+                className={cn(
+                  "flex items-center text-lg font-medium py-2 transition-colors hover:text-primary",
+                  pathname === item.href || (pathname !== "/" && item.href !== "/" && pathname.startsWith(item.href))
+                  ? "text-primary"
+                  : "text-muted-foreground",
+                )}
+                onClick={() => setIsMenuOpen(false)}
               >
-              {item.icon}
-              {item.name}
+                {item.icon}
+                {item.name}
               </Link>
             ))}
             {/* <Button className="mt-4 w-full">Contact Me</Button> */}

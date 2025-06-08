@@ -69,7 +69,7 @@ function ArtGallery({ artworks }: { artworks: Artwork[] }) {
 
   return (
     <main className="p-8 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold mb-8">Art Gallery</h1>
+      <h1 className="text-4xl font-bold mb-8">My Art Gallery</h1>
       <div className="columns-1 sm:columns-2 md:columns-3 gap-6 [column-fill:_balance]">
         {artworks.map((art, idx) => (
           <div
@@ -87,20 +87,31 @@ function ArtGallery({ artworks }: { artworks: Artwork[] }) {
                 style={{ display: 'block' }}
               />
             </div>
-            <button
+            {/* <button
               className="mt-2 px-4 py-1 bg-primary text-white rounded shadow hover:bg-primary/80 focus:outline-none w-full"
               onClick={() => handleFullscreen(idx, art.url)}
             >
               View Fullscreen
-            </button>
-            <div className="mt-3 text-center">
+            </button> */}
+            {/* <div className="mt-3 text-center">
               <div className="font-semibold text-lg">{art.title}</div>
               <div className="text-gray-500 text-sm">{art.description}</div>
-            </div>
-            <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg pointer-events-none">
-              <div className="font-bold text-xl mb-2">{art.title}</div>
+            </div> */}
+            {/* <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg pointer-events-none">
+              <div className="font-bold text-xl mb-2" >{art.title}</div>
               <div className="text-base">{art.description}</div>
+            </div> */}
+            <div
+              onClick={() => handleFullscreen(idx, art.url)}
+              className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg cursor-pointer"
+            >
+              <div className="font-bold text-xl mb-2">Click to view full screen</div>
+                <div className="absolute left-4 bottom-4 text-left">
+                  <div className="font-bold text-xl mb-2">{art.title}</div>
+                  <div className="text-base">{art.description}</div>
+                </div>
             </div>
+
           </div>
         ))}
       </div>

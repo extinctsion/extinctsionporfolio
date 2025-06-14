@@ -5,9 +5,14 @@
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Black%20rose.png"
   },
   {
-    "title": "Jett",
-    "description": "Digital sketch art of Jett",
-    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Jett.jpeg"
+    "title": "Funnymen",
+    "description": "Humorous digital sketch titled 'Funnymen'",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/funnymen.png"
+  },
+  {
+    "title": "The Lighthouse",
+    "description": "Artistic interpretation of a lighthouse",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/thelighthouse.PNG"
   },
   {
     "title": "Holi Modern Art",
@@ -20,6 +25,11 @@
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Balloonofcolours.jpg"
   },
   {
+    "title": "Imaginating",
+    "description": "It was true but not now it not",
+    "url": "http://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/111.png"
+  },
+  {
     "title": "Net",
     "description": "Abstract digital artwork titled 'Net'",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Net.jpg"
@@ -30,13 +40,43 @@
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/The%20stars.png"
   },
   {
-    "title": "Abstract",
-    "description": "Abstract digital sketch",
+    "title": "Woman's curve",
+    "description": "Abstract digital art",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/abstract.png"
   },
   {
-    "title": "zigzag",
+    "title": "Zigzag",
     "description": "Digital artwork with a zigzag pattern",
     "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Untitled.png"
+  },
+  {
+    "title": "Hallucinations",
+    "description": "Surreal digital artwork titled 'Hallucinations'",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/hallucinations.png"
+  },
+  {
+    "title": "Eren Yeager",
+    "description": "AOT eren sketch",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/aot.png"
+  },
+  {
+    "title": "Daily Workers",
+    "description": "Pencil sketch of abstract workers with their pets",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/dailyworkers.jpg"
+  },
+  {
+    "title": "Beyond the Sky",
+    "description": "Soft pastel based solar system art",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/galaxy.jpg"
+  },
+  {
+    "title": "Yae Miko",
+    "description": "Sketch of Yae Miko from Genshin Impact",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/yaemiko.jpg"
+  },
+  {
+    "title": "Jett",
+    "description": "Digital sketch art of Jett",
+    "url": "https://raw.githubusercontent.com/extinctsion/drive/refs/heads/main/extinctsionportfolio/myart/Jett.jpeg"
   }
 ]

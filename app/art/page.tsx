@@ -17,12 +17,6 @@ function FullscreenModal({ url, onClose }: { url: string; onClose: () => void })
         className="relative bg-white rounded-xl shadow-2xl p-6 flex flex-col items-center max-w-lg w-full mx-4"
         onClick={e => e.stopPropagation()}
       >
-        {/* <img
-          src={url}
-          alt="Artwork enlarged view"
-          className="max-h-[60vh] w-auto object-contain rounded mb-4"
-          style={{ background: '#f3f3f3' }}
-        /> */}
         <button
           className="absolute top-4 right-4 text-white text-xl bg-black bg-opacity-60 rounded px-3 py-1 hover:bg-opacity-80"
           onClick={onClose}
@@ -87,20 +81,6 @@ function ArtGallery({ artworks }: { artworks: Artwork[] }) {
                 style={{ display: 'block' }}
               />
             </div>
-            {/* <button
-              className="mt-2 px-4 py-1 bg-primary text-white rounded shadow hover:bg-primary/80 focus:outline-none w-full"
-              onClick={() => handleFullscreen(idx, art.url)}
-            >
-              View Fullscreen
-            </button> */}
-            {/* <div className="mt-3 text-center">
-              <div className="font-semibold text-lg">{art.title}</div>
-              <div className="text-gray-500 text-sm">{art.description}</div>
-            </div> */}
-            {/* <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg pointer-events-none">
-              <div className="font-bold text-xl mb-2" >{art.title}</div>
-              <div className="text-base">{art.description}</div>
-            </div> */}
             <div
               onClick={() => handleFullscreen(idx, art.url)}
               className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg cursor-pointer"

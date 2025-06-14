@@ -83,7 +83,7 @@ function ArtGallery({ artworks }: { artworks: Artwork[] }) {
             </div>
             <div
               onClick={() => handleFullscreen(idx, art.url)}
-              className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg cursor-pointer"
+              className="absolute inset-0 bg-black bg-opacity-30 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-300 rounded-lg cursor-pointer"
             >
               <div className="font-bold text-xl mb-2">Click to view full screen</div>
                 <div className="absolute left-4 bottom-4 text-left">

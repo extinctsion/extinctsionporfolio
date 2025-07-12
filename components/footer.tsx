@@ -14,7 +14,7 @@ export function Footer() {
               extinctsion
             </Link>
             <p className="mt-4 text-muted-foreground max-w-xs">
-              A passionate full-stack developer creating intuitive and performant web applications.
+              A passionate full-stack engineer creating intuitive and performant web applications.
             </p>
             <div className="flex items-center space-x-4 mt-4">
               <Button variant="ghost" size="icon" asChild>

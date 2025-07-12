@@ -3,6 +3,14 @@ import { ProjectCard } from "./project-card"
 export function ProjectsSection() {
   const projects = [
     {
+      title: "Productive AI",
+      description: "Open source products comparer based on features and user inputs.",
+      image: "/productiveAI.png?height=400&width=600",
+      tags: ["Next.js", "Netlify", "Cohert AI","GraphQL","Typescript", "Github API"],
+      demoUrl: "https://productiveai.netlify.app/",
+      githubUrl: "https://github.com/extinctsion/productiveai",
+    },
+    {
       title: "Lychrel Number Visualizer",
       description: "A web application that visualizes Lychrel numbers and their sequences, helping to understand these mathematical curiosities through interactive visualization.",
       image: "/Lychrel.png?height=400&width=600",

@@ -6,7 +6,7 @@ export function ProjectsSection() {
       title: "Productive AI",
       description: "Open source products comparer based on features and user inputs.",
       image: "/productiveAI.png?height=400&width=600",
-      tags: ["Next.js", "Netlify", "Cohert AI","GraphQL","Typescript", "Github API"],
+      tags: ["Next.js", "Netlify", "Cohere AI","GraphQL","Typescript", "Github API"],
       demoUrl: "https://productiveai.netlify.app/",
       githubUrl: "https://github.com/extinctsion/productiveai",
     },

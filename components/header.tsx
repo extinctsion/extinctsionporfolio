@@ -55,7 +55,7 @@ export function Header() {
                 {item.icon}
                 {item.name}
               </Link>,
-              <Button key="ContactMeBtn">Contact Me</Button>
+              // <Button key="ContactMeBtn">Contact Me</Button>
             ] : idx !== 6 && (
               <Link
                 key={item.name}

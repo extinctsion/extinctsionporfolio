@@ -56,15 +56,15 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="relative h-[400px] w-full rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-background flex items-center justify-center">
-            <div className="absolute inset-2 rounded-lg bg-muted/80 backdrop-blur-sm flex items-center justify-center">
+          <div className="relative rounded-lg bg-gradient-to-br from-primary/20 via-secondary/20 to-background flex items-center justify-center p-4">
+            <div className="rounded-lg bg-muted/80 backdrop-blur-sm flex items-center justify-center">
               {/* <div className="text-center"> */}
               <Image
-                src="Adi.jpg"
-                alt="Picture of the author"
-                layout="fill" // Makes the image fill the parent container
-                objectFit="cover" // Ensures the image scales properly
-                className="rounded-lg"
+                src="adi.png"
+                alt="Picture of Aditya"
+                width={400}
+                height={500}
+                className="rounded-lg object-contain"
               />
                 {/* <p className="text-lg font-medium">Profile Image</p>
                 <p className="text-sm text-muted-foreground">Add your photo here</p> */}

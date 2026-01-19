@@ -30,7 +30,7 @@ export function AboutSection() {
             </div>
             <div className="mt-8">
               <Button asChild>
-                <Link href="https://drive.google.com/uc?export=download&id=18iFwUKxxXRJgvfRKplY06fxPkuCKnWLx" download>
+                <Link href="resume.pdf" download>
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
                 </Link>
